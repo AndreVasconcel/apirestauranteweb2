@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api-restaurante/src/server.js",
+      "src": "apirestauranteweb2/src/server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api-restaurante/src/server.js"
+      "dest": "apirestauranteweb2/src/server.js"
     }
   ]
 }
